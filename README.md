@@ -1,4 +1,4 @@
-# Hello World
+# Hello Wordpress
 
 Development environment for Wordpress that preprocesses styles, bundles scripts, watches for file changes, and uses live reload
 
