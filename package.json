@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "wp-blog",
   "author": "Brandon Patterson",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "gulp"
   },
