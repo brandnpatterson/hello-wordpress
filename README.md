@@ -2,11 +2,19 @@
 
 Development environment for Wordpress that preprocesses styles, bundles scripts, watches for file changes, and uses live reload
 
-## Prerequisites
+### Prerequisites
 
-1. Clone and Rename
+1. Start by cloning this repo as a theme of your Wordpress project and renaming it to whatever your theme name will be and then cd to your new theme
 
-    Start by cloning this repo as a theme of your Wordpress project and renaming it to whatever your theme name will be
+To remove the .git directory and to use this in its own unique repo, run this command
+```
+rm -rf .git
+```
+
+Then rename your directory and run
+```
+git init
+```
 
 2. Set up your proxy
     
