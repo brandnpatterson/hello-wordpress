@@ -22,7 +22,7 @@ git init
     Then define the proxy in your gulpfile
 
 ```
-let localhost = 'wp-hello-world.localhost';
+let localhost = 'hello-wordpress-theme.localhost';
 
 browserSync.init({
     proxy: localhost
