@@ -1,7 +1,7 @@
 {
-  "name": "wp-hello-world",
+  "name": "hello-wordpress",
   "version": "1.0.0",
-  "description": "wp-hello-world",
+  "description": "hello-wordpress",
   "author": "Brandon Patterson",
   "license": "MIT",
   "scripts": {
