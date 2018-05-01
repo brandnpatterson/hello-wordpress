@@ -29,7 +29,15 @@ browserSync.init({
 });
 ```
 
-3. Switch to your theme
+3. If using Apache, don't forget to add your new host to the hosts dir (likely /etc/hosts)
+```
+sudo nano /etc/hosts
+```
+```
+127.0.0.1 hello-world.localhost
+```
+
+4. Switch to your theme
 
     Log into wp-admin and select your new theme
 

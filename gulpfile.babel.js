@@ -7,7 +7,7 @@ import sourcemaps from 'gulp-sourcemaps';
 import styleLint from 'gulp-stylelint';
 import webpack from 'webpack-stream';
 
-let localhost = 'wp-blog.localhost';
+let localhost = 'hello-wordpress.localhost';
 
 let paths = {
     public: './public',
@@ -22,6 +22,8 @@ gulp.task('eslint', () => {
         .pipe(eslint.failAfterError());
 });
 
+
+    
 gulp.task('scripts', ['eslint'], () => {
     return gulp.src(`${paths.js}index.js`)
         .pipe(webpack({
